@@ -6,7 +6,7 @@
  * @subpackage Plugins
  * @author Pavel Belousov / pafnuty
  * @version 1.0.0
- * @license https://github.com/pafnuty/morfy-plugin-socialmeta/blob/master/LICENSE MIT
+ * @license https://github.com/pafnuty-morfy-plugins/morfy-plugin-socialmeta/blob/master/LICENSE MIT
  */
 
 Action::add('theme_meta', function () {
