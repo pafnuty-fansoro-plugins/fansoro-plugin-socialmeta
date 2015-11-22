@@ -2,14 +2,15 @@
 /**
  * Social Meta Plugin
  *
- * @package Morfy
+ * @package    Morfy
  * @subpackage Plugins
- * @author Pavel Belousov / pafnuty
- * @version 1.0.0
- * @license https://github.com/pafnuty-morfy-plugins/morfy-plugin-socialmeta/blob/master/LICENSE MIT
+ * @author     Pavel Belousov / pafnuty
+ * @version    1.0.1
+ * @license    https://github.com/pafnuty-morfy-plugins/morfy-plugin-socialmeta/blob/master/LICENSE MIT
  */
 
-Action::add('theme_meta', function () {
+Action::add(
+	'theme_meta', function () {
 	require_once PLUGINS_PATH . '/socialmeta/classes/resize.php';
 	require_once PLUGINS_PATH . '/socialmeta/classes/SocialMeta.php';
 
@@ -53,4 +54,5 @@ Action::add('theme_meta', function () {
 		echo '<meta property="' . $property . '" content="' . $content . '">';
 	}
 
-});
+}
+);
