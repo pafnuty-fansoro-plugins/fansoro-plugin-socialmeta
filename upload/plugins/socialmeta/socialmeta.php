@@ -2,11 +2,11 @@
 /**
  * Social Meta Plugin
  *
- * @package    Morfy
+ * @package    Fansoro
  * @subpackage Plugins
  * @author     Pavel Belousov / pafnuty
- * @version    1.1.0
- * @license    https://github.com/pafnuty-morfy-plugins/morfy-plugin-socialmeta/blob/master/LICENSE MIT
+ * @version    1.2.0
+ * @license    https://github.com/pafnuty-fansoro-plugins/fansoro-plugin-socialmeta/blob/master/LICENSE MIT
  */
 
 Action::add(

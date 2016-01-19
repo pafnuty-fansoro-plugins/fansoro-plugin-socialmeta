@@ -3,7 +3,7 @@
 /**
  * SocialMeta Class
  *
- * @package    Morfy
+ * @package    Fansoro
  * @subpackage Plugins
  * @author     Pavel Belousov / pafnuty
  */

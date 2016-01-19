@@ -1,8 +1,8 @@
-# Social Meta Plugin for [Morfy CMS](http://morfy.org/)
+# Social Meta Plugin for [Fansoro CMS](http://fansoro.org/)
 
-![version](https://img.shields.io/badge/version-1.1.0-brightgreen.svg?style=flat-square "Version")
-![DLE](https://img.shields.io/badge/Morfy-2.x-green.svg?style=flat-square "Morfy Version")
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/pafnuty-morfy-plugins/morfy-plugin-socialmeta/blob/master/LICENSE)
+![version](https://img.shields.io/badge/version-1.2.0-brightgreen.svg?style=flat-square "Version")
+![Fansoro](https://img.shields.io/badge/Fansoro-2.x-green.svg?style=flat-square "Fansoro Version")
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/pafnuty-fansoro-plugins/fansoro-plugin-socialmeta/blob/master/LICENSE)
 
 The plugin to automatically generate social metatags.
 
@@ -18,7 +18,7 @@ The plugin to automatically generate social metatags.
 Copy the content of folder `upload` in the root of the site.
 
 ## Configuration
-- See step 2 and 3 in [this instruction](http://morfy.org/documentation/plugins/plugins-installation)
+- See step 2 and 3 in [this instruction](http://fansoro.org/documentation/plugins/plugins-installation)
 - Open `base.tpl` and modify `<head>` tag:
 ```html
 <head prefix="og: http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
@@ -40,4 +40,4 @@ twitter_image: /my_folder/my_super_nice_image_for_facebook.png
 
 
 ## License 
-[MIT](https://github.com/pafnuty/morfy-less/blob/master/LICENSE)
+[MIT](https://github.com/pafnuty/fansoro-less/blob/master/LICENSE)
